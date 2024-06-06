@@ -33,5 +33,6 @@ public class ProductController {
     @ResponseStatus(HttpStatus.OK)
     public void createProduct(@RequestBody ProductEntity product){
         productRepository.save(product);
+
     }
 }
