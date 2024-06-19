@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/categories")
 @Setter
 @Getter
-
 @RefreshScope
 public class CategoryController {
 
